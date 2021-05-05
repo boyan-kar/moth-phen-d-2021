@@ -1,0 +1,42 @@
+- dataset_tasmin:
+    shp_address: data/RIS_tidy_parquet/RIS_light_traps.gpkg
+      # location of points to extract weather data for
+    data_address: /storage/hadUK/day/tasmin
+      # location of hadUK data
+    output_address: data/hadUK
+      # address to output extracted data
+    start_year: 1960
+    end_year: 2018
+    grid_scale: 1
+      # km
+    period: day
+      #'day', 'mon' or 'ann'
+    variable: tasmin
+- dataset_tasmax:
+    shp_address: data/RIS_tidy_parquet/RIS_light_traps.gpkg
+      # location of points to extract weather data for
+    data_address: /storage/hadUK/day/tasmax
+      # location of hadUK data
+    output_address: data/hadUK
+      # address to output extracted data
+    start_year: 1960
+    end_year: 2018
+    grid_scale: 1
+      # km
+    period: day
+      #'day', 'mon' or 'ann'
+    variable: tasmax
+- dataset_rainfall:
+    shp_address: data/RIS_tidy_parquet/RIS_light_traps.gpkg
+      # location of points to extract weather data for
+    data_address: /storage/hadUK/day/rainfall
+      # location of hadUK data
+    output_address: data/hadUK
+      # address to output extracted data
+    start_year: 1960
+    end_year: 2018
+    grid_scale: 1
+      # km
+    period: day
+      #'day', 'mon' or 'ann'
+    variable: rainfall

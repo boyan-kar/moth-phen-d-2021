@@ -1,0 +1,10 @@
+---
+title: "Packages used"
+subtitle: "References for all packages used in this project"
+output: md_document
+bibliography: [all_used_packages.bib]
+nocite: '@*'
+---
+
+# References
+
